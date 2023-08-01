@@ -1,0 +1,63 @@
+body
+{
+    background-color:#7d00ae;
+    color:white;
+    width: 100%
+    }
+
+    footer{
+        color:#c6e2ff;
+         text-shadow:
+            0 0 6px rgba(202,228,225,0.92),
+            0 0 30px rgba(202,228,225,0.34),
+            0 0 12px rgba(30,132,242,0.52),
+            0 0 21px rgba(30,132,242,0.92),
+            0 0 34px rgba(30,132,242,0.78),
+            0 0 54px rgba(30,132,242,0.92);
+    }
+.logo{
+    height: 150PX;
+    width: 150px;
+    margin-right: 0;}
+
+
+
+    .b-header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #7d00ae;
+        
+    }
+
+    .grand_titre{
+        margin-right: 35%;
+    }
+
+    table{
+        height: 450px;
+        width: 80%;
+        text-align: center;
+        margin-left: 8%;
+        margin-top: 2%;
+        background-color: #333;
+    }
+
+    .b-footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8%;
+        margin-right: 2%;
+        
+    }
+
+    .drapeausn{
+        width: 150px;
+        height: 150px;
+    }
+    .text{
+        font-size: 18px;
+        margin-top: 27%;
+    }
+    #copyright{text-align: center;}
