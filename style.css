@@ -1,199 +1,63 @@
-header {
-    width: 100%;
-    height: 15%;
-    background-color: #7d00ae;
-    text-align: center;
-  }
+body
+{
+    background-color:#7d00ae;
+    color:white;
+    width: 100%
+    }
 
-  header img {
-    height: 150px;
-    width: 27%;
-    
-  }
-  
-  nav {
-    background-color: #ccc;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 20px;
-  }
-  
-  nav a:hover{
-    color: #7d00ae;
-    transform: scale(1.1);
-  }
-  
-  nav a.selected {
-    font-weight: bold;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  #catalog {
-    display: flex;
-    margin-left: 7%;
-    /*flex-wrap: wrap;*/
-  }
-  
-  .item {
-    width: 30%;
-    margin: 10px;
-    text-align: center;}
-  
-    /*.item-shoes{
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      background-color: #f9f9f9;
-      width: 27%;
-      margin: 10px;
-      text-align: center;
-      height: 300px;
-    }*/
-  
-    /*.item-shirt{
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      background-color: #f9f9f9;
-      width: 27%;
-      margin: 10px;
-      text-align: center;
-      height: 300px;
-    }*/
-  
-    .item-pants, .item-shirt, .item-shoes{
-      border: 2px solid #ccc;
-      border-radius: 5px;
-      padding: 10px;
-      background-color: #f9f9f9;
-      width: 27%;
-      margin: 10px;
-      text-align: center;
-      height: 340px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      padding-bottom:15px;
-    }
-  
-    .item-pants img{
-      width: 80%;
-      height: 210px;
-  
-    }
-  
-    .item-shirt img{
-      width: 80%;
-      height: 210px;
-  
-    }
-  
-    .item-shoes img{
-      width: 80%;
-      height: 210px;
-  
-    }
-  
-    h2{
-      color: #333;
-  
-    }
-  
-    .price{
-      color: #333;
-      font-weight: bold;
-      font-size: 20px;
-    }
-  
-    .add-to-cart{
-      background-color: #333;
-      color: white;
-      border-radius: 7px;
-      font-size: 15px;
-      cursor: pointer;
-    }
-  
-    .add-to-cart:hover{
-      background-color: white;
-      color: #7d00ae;
-      transform: scale(1.1);
-    }
-  
-    /*stylise la phrase de bienvenue*/
-    .welcome{
-      text-align: center;
-      margin-top: 4%;
-    }
-    .store{
-      color: #7d00ae;
-      font-size: 40px;
-      font-weight: bold;
-      font-style: italic;
-    }
-  
-    .head{
-      display: flex;
-      flex-direction: space-between;
-      margin-left: 3%;
-    }
-  
-    .stock{
-      color: #333;
-      font-size: 30px;
-      font-weight: bold;
-      text-align: center;
-    }
-    .sell{
-      color: #fff;
-      background-color: #333;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      cursor: pointer;
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      border-radius: 20px;
-      width: 130px;
-      height: 35px;
-      border-width: 1px;
-      margin-left: 60%;
-      margin-top: 5%;
-    }
-  
     footer{
-      background-color: #ccc;
-      color: black;
-      padding: 20px;
-      width: 100%;
-      height: 150px;
-      
+        color:#c6e2ff;
+         text-shadow:
+            0 0 6px rgba(202,228,225,0.92),
+            0 0 30px rgba(202,228,225,0.34),
+            0 0 12px rgba(30,132,242,0.52),
+            0 0 21px rgba(30,132,242,0.92),
+            0 0 34px rgba(30,132,242,0.78),
+            0 0 54px rgba(30,132,242,0.92);
     }
-  
-    .t{
-      color: #7d00ae;
-      font-weight: bold;
+.logo{
+    height: 150PX;
+    width: 150px;
+    margin-right: 0;}
+
+
+
+    .b-header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #7d00ae;
+        
     }
-    .right{
-      margin-left: 70%;
-      color: #7d00ae;
-      font-weight: bold;
+
+    .grand_titre{
+        margin-right: 35%;
     }
-  
-    .write{
-      text-align: center;
-      margin-top:100px;
-      color: #7d00ae;
-      font-weight: bold;
+
+    table{
+        height: 450px;
+        width: 80%;
+        text-align: center;
+        margin-left: 8%;
+        margin-top: 2%;
+        background-color: #333;
     }
+
+    .b-footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8%;
+        margin-right: 2%;
+        
+    }
+
+    .drapeausn{
+        width: 150px;
+        height: 150px;
+    }
+    .text{
+        font-size: 18px;
+        margin-top: 27%;
+    }
+    #copyright{text-align: center;}
